@@ -200,6 +200,7 @@ li.checked:hover {
 @media only screen and (max-width: 700px) {
   .centerBox {
     width: 90%;
+    height: 90%;
     min-width: 300px;
   }
 }
