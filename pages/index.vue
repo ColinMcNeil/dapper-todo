@@ -40,6 +40,7 @@ export default {
   },
   methods: {
     append() {
+      if (this.addText.length === 0) return
       this.items.push({
         text: this.addText,
         id: this.items.length,
