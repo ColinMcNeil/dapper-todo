@@ -76,12 +76,13 @@ button {
 }
 
 .centerBox {
-  width: 50%;
+  width: 60%;
   height: 50%;
   display: flex;
   position: fixed;
   flex-direction: column;
   background-color: rgb(165, 154, 228);
+  overflow: auto;
 }
 
 .bar {
